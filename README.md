@@ -14,6 +14,9 @@ The location of the hand when the gesture is changed is registered as well.
 
 You will need to modify this code for your own needs if you actually want to use it.
 
+Note: Only when changing from open to closed, is it registered as activated. Continuing to hold a closed palm will not register as activated.
+You can change that in the code if you'd like. I personally wanted only the moment of gesture change to register.
+
 ### How it works:
 Run hand_detect.py
 
